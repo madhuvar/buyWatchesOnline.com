@@ -1,0 +1,17 @@
+import p2 from './watch.png'
+function About(){
+    return(
+        <>
+        <h3>About Us</h3>
+        <p>Alfred Davis and his brother-in-law Hans Wilsdorf founded Wilsdorf and Davis, the company that would eventually become Rolex SA, in London in 1905.[12] Wilsdorf and Davis's main commercial activity at the time involved importing Hermann Aegler's Swiss movements to England and placing them in watch cases made by Dennison and others. These early wristwatches were sold to many jewellers, who then put their own names on the dial. The earliest watches from Wilsdorf and Davis were usually hallmarked "W&D" inside the caseback. </p>
+        <p>In 1908, Wilsdorf registered the trademark "Rolex", which became the brand name of watches from Wilsdorf and Davis. He opened an office in La Chaux-de-Fonds, Switzerland.[5][12][13] Wilsdorf wanted the brand name to be easily pronounceable in any language, and short enough to fit on the face of a watch.[4][14] He also thought that the name "Rolex" was onomatopoeic, sounding like a watch being wound.[4][14]</p>
+        <p>In November 1915, the company changed its name to Rolex Watch Co. Ltd.[7] In 1919, Hans Wilsdorf moved the company from England to Geneva, Switzerland, because of heavy post-war taxes levied on luxury imports and high export duties on the silver and gold used for the watch cases. In 1920 the company's name was officially changed to Montres Rolex SA and later to Rolex SA[9][11][12]</p>
+        <p>With administrative worries attended to, Wilsdorf turned the company's attention to a marketing challenge: the infiltration of dust and moisture under the dial and crown, which damaged the movement. To address this problem, in 1926 a third-party casemaker produced a waterproof and dustproof wristwatch for Rolex, giving it the name "Oyster". The original patent attributed to Paul Perregaux and Georges Peret, that allowed the watch to be adjusted while maintaining protection from water ingress was purchased – not invented – by Rolex and heavily marketed.[15] The watch featured a hermetically sealed case which provided optimal protection for the movement.[16]</p>
+        <p>As a demonstration, Rolex submerged Oyster models in aquariums, which it displayed in the windows of its main points of sale. In 1927, British swimmer Mercedes Gleitze swam the English Channel with an Oyster on her necklace, becoming the first Rolex ambassador. To celebrate the feat, Rolex published a full-page advertisement on the front page of the Daily Mail for every issue for a whole month proclaiming the watch's success during the ten hour plus swim.[17]</p>
+        <p>In 1931, Rolex patented a self-winding mechanism called a Perpetual rotor, a semi-circular plate that relies on gravity to move freely. In turn, the Oyster watch became known as the Oyster Perpetual.[18]</p>
+        <p>Upon the death of his wife in 1944, Wilsdorf established the Hans Wilsdorf Foundation, a private trust, in which he left all of his Rolex shares, ensuring that some of the company's income would go to charity. Wilsdorf died in 1960, and since then the trust has owned and run Rolex SA.[11]</p>
+        <img src={p2}  width='200 px' alt='Rolex Submariner'/>
+        </>
+    )
+}
+export default About
